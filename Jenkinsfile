@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('** CLONING CODE  **') {
             steps {
-                git branch: 'main', credentialsId: 'af3bb9e4-fac6-45a5-9f97-f84a12608e3c', url: 'https://github.com/pujaaRani/jenkins-cicd-php-demo.git'
+                git branch: 'main', credentialsId: 'git_hub', url: 'https://github.com/dheerendrabhandari8/javalab.git'
             }
         }
     stages {
